@@ -20,7 +20,7 @@ jobs:
           python-version: 'v22.22.3'
 
       - name: Run script
-        run: node javascript.js
+        run: node home.js
 
       - name: Commit and Push changes
         uses: stefanzweifel/git-auto-commit-action@v5
