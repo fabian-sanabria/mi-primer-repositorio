@@ -17,7 +17,7 @@ jobs:
       - name: Setup Javascript
         uses: actions/setup-node@v6
         with:
-          python-version: 'v22.22.3'
+          node-version: 'v22.22.3'
 
       - name: Run script
         run: node home/home.js
