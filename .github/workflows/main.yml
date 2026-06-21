@@ -2,7 +2,7 @@ name: Stats
 
 on:
   push:
-    branches: [ main ]
+    branches: [main]
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -17,7 +17,7 @@ jobs:
       - name: Setup Javascript
         uses: actions/setup-node@v6
         with:
-          node-version: 'v22.22.3'
+          node-version: "v22.22.3"
 
       - name: Run script
         run: node home/home.js
