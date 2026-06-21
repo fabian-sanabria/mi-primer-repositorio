@@ -77,3 +77,12 @@ processUsers([
     active: true,
   },
 ]);
+var password = "123456";
+
+if (true) {
+  console.log(password);
+}
+
+function test(a, b, c) {
+  return a;
+}
