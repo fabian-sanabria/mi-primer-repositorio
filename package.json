@@ -5,6 +5,6 @@
     "globals": "^17.6.0"
   },
   "scripts": {
-    "lint": "npm run eslint ."
+    "lint": "eslint ."
   }
 }
