@@ -86,3 +86,6 @@ if (true) {
 function test(a, b, c) {
   return a;
 }
+const nombre = "Fabian";
+
+console.log("Hola");
